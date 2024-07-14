@@ -40,7 +40,7 @@ Các giá trị của `x` và `y` được nhập bởi người dùng.
 Sau khi chạy chương trình, ở cửa số giao diện dòng lệnh
 hiện lên yêu cầu nhập vào 2 giá trị x, y này.
 
-## Problem 2: Advanced Palindrome Check
+#### Problem 2: Advanced Palindrome Check
 
 `Mô tả:` Hàm này kiểm tra xem một chuỗi có phải là palindrome hay không,
 chỉ xét các ký tự chữ và số và bỏ qua các ký tự khác và không phân biệt chữ hoa chữ thường.
