@@ -1,0 +1,22 @@
+{
+  "name": "result_entrance_test",
+  "version": "1.0.0",
+  "description": "Result Etrance Test - Modelty Strategy &amp; Consulting Company",
+  "main": "problem1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noahvnp/Result_Entrance_Test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Noahvnp/Result_Entrance_Test/issues"
+  },
+  "homepage": "https://github.com/Noahvnp/Result_Entrance_Test#readme",
+  "dependencies": {
+    "axios": "^1.7.2"
+  }
+}

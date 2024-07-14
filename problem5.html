@@ -1,0 +1,50 @@
+<!-- Problem 5: Dynamic HTML Page -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem 5: Dynamic HTML Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="userForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label for="color">Favorite Color:</label>
+        <select id="color" name="color">
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+        </select><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script>
+        document.getElementById('userForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            const name = document.getElementById('name').value;
+            const age = document.getElementById('age').value;
+            const color = document.getElementById('color').value;
+
+            document.getElementById('result').innerHTML = `<p>Name: ${name}</p><p>Age: ${age}</p><p>Favorite Color: ${color}</p>`;
+            document.body.style.backgroundColor = color;
+        });
+    </script>
+</body>
+
+</html>
