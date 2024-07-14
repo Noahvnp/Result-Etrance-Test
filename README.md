@@ -1,6 +1,6 @@
 # Result-Entrance-Test
 
-Đây là bài làm bài test đầu vào của Modelty Strategy & Consulting Co Ltd.
+Đây là bài làm bài test đầu vào.
 
 ## Hướng dẫn cài đặt
 
